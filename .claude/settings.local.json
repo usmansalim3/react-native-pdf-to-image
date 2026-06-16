@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(yarn typecheck *)",
+      "Bash(yarn test *)",
+      "Bash(echo \"EXIT: $?\")",
+      "Bash(yarn lint *)",
+      "Bash(echo \"TYPECHECK_EXIT: $?\")",
+      "Bash(echo \"LINT_EXIT: $?\")",
+      "Bash(echo \"LINT_EXIT $?\")",
+      "Read(//tmp/**)",
+      "Bash(echo \"FIX_EXIT $?\")",
+      "Bash(echo \"EXIT $?\")",
+      "Bash(echo \"TEST_EXIT $?\")",
+      "Bash(yarn eslint *)",
+      "Bash(echo \"LINT $?\")",
+      "Bash(grep -E \"\\\\.\\(kt|java\\)$\")",
+      "Bash(ls android *)",
+      "Bash(ls android/app/build/generated/source/codegen/java/com/pdftoimage)",
+      "Bash(timeout 540 ./gradlew :react-native-pdf-to-image:compileDebugKotlin --console=plain)",
+      "Bash(./gradlew :react-native-pdf-to-image:compileDebugKotlin --console=plain)"
+    ]
+  }
+}

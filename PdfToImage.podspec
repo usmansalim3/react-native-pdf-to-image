@@ -17,4 +17,13 @@ Pod::Spec.new do |s|
   s.private_header_files = "ios/**/*.h"
 
   install_modules_dependencies(s)
+
+  # The module mixes Swift (PdfToImageImpl) with the ObjC++ TurboModule shim.
+  # DEFINES_MODULE makes CocoaPods emit the `PdfToImage-Swift.h` header the
+  # shim imports; merge so we don't drop what install_modules_dependencies set.
+  existing_xcconfig = s.attributes_hash["pod_target_xcconfig"] || {}
+  s.pod_target_xcconfig = existing_xcconfig.merge({
+    "DEFINES_MODULE" => "YES",
+    "SWIFT_VERSION" => "5.0"
+  })
 end
