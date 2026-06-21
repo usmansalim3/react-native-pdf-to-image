@@ -9,7 +9,7 @@ import {
   type StyleProp,
   type TextInputProps,
 } from 'react-native';
-import type { PageImage } from 'react-native-pdf-to-image';
+import type { PageImage } from '@uzimandias/react-native-pdf-to-image';
 
 /** Shared dark theme — reads well behind rendered page images. */
 export const theme = {

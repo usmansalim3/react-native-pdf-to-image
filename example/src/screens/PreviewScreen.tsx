@@ -13,7 +13,7 @@ import {
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
-import type { PageImage } from 'react-native-pdf-to-image';
+import type { PageImage } from '@uzimandias/react-native-pdf-to-image';
 import { theme, imageSource } from '../ui';
 import type { RootStackParamList } from '../App';
 

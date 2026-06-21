@@ -1,7 +1,7 @@
 {
-  "name": "react-native-pdf-to-image",
+  "name": "@uzimandias/react-native-pdf-to-image",
   "version": "0.1.0",
-  "description": "Convert PDFs to image",
+  "description": "Render PDF pages to images (PNG/JPEG/WebP) in React Native — fast, native, and memory-safe. New Architecture (TurboModule).",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
   "exports": {
@@ -45,7 +45,18 @@
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "pdf",
+    "pdf-to-image",
+    "pdf-to-png",
+    "pdf-to-jpeg",
+    "pdf-renderer",
+    "pdf-render",
+    "pdf-converter",
+    "image",
+    "thumbnail",
+    "turbomodule",
+    "new-architecture"
   ],
   "repository": {
     "type": "git",
@@ -58,7 +69,8 @@
   },
   "homepage": "https://github.com/usmansalim3/react-native-pdf-to-image#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^21.0.2",

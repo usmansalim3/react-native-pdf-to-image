@@ -16,7 +16,7 @@ import {
   type PdfInfo,
   type PdfImageFormat,
   type ConvertOptions,
-} from 'react-native-pdf-to-image';
+} from '@uzimandias/react-native-pdf-to-image';
 import { theme, Card, Label, Button, Segmented, Field, Row } from '../ui';
 import type { RootStackParamList } from '../App';
 

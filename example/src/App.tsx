@@ -2,7 +2,7 @@ import { StatusBar } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { NavigationContainer, DarkTheme } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import type { PageImage } from 'react-native-pdf-to-image';
+import type { PageImage } from '@uzimandias/react-native-pdf-to-image';
 import HomeScreen from './screens/HomeScreen';
 import PreviewScreen from './screens/PreviewScreen';
 import { theme } from './ui';

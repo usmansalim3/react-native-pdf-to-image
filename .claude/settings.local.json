@@ -18,7 +18,15 @@
       "Bash(ls android *)",
       "Bash(ls android/app/build/generated/source/codegen/java/com/pdftoimage)",
       "Bash(timeout 540 ./gradlew :react-native-pdf-to-image:compileDebugKotlin --console=plain)",
-      "Bash(./gradlew :react-native-pdf-to-image:compileDebugKotlin --console=plain)"
+      "Bash(./gradlew :react-native-pdf-to-image:compileDebugKotlin --console=plain)",
+      "Bash(yarn prepare *)",
+      "Bash(npm pack *)",
+      "Bash(npm view *)",
+      "Bash(npm whoami *)",
+      "Bash(yarn install *)",
+      "Bash(echo \"TYPECHECK_EXIT=$?\")",
+      "Bash(echo \"LINT_EXIT=$?\")",
+      "Bash(echo \"typecheck exit=$?\")"
     ]
   }
 }

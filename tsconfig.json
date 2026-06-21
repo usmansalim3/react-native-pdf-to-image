@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "react-native-pdf-to-image": ["./src/index"]
+      "@uzimandias/react-native-pdf-to-image": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
